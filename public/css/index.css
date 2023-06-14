@@ -1,51 +1,71 @@
 .task1 .item {
+  position: relative;
+  left: 200px;
+  top: 150px;
 }
 
 .task2 .item {
+  position: absolute;
+  top: calc(50% - 40px);
+  left: calc(50% - 40px);
 }
 
 .task3 .item {
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 .container4 {
+  position: absolute;
 }
 
 .task4 {
   width: 1000px;
 }
 .task4 .item {
+  left: calc(50% - 1000px);
 }
 
 .task5 .item1 {
   background-color: red;
+  z-index: 4;
 }
 .task5 .item2 {
+  z-index: 2;
 }
 .task5 .item3 {
   background-color: green;
+  z-index: 6;
 }
 
 .task6 .item {
+  float: left;
 }
 
 .task7 .item {
+  float: right;
 }
 
 .task8 .item1 {
+  float: none;
 }
 .task8 .item2 {
   height: 120px;
 }
 
 .task8 p {
+  float: none;
 }
 
 .task9 .item1 {
   height: 200px;
 }
 .task9 .item2 {
+  float: right;
 }
 .task9 p {
+  float: none;
 }
 
 .task10 .item1 {
